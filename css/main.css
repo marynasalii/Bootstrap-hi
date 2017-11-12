@@ -1,0 +1,42 @@
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url(../fonts/Montserrat-Bold.ttf);
+}
+@font-face {
+    font-family: Lato-Regular;
+    src: url(../fonts/Lato-Regular.ttf);
+}
+#bootstrap-overrides #title {
+    background-color: #000;
+    color: #fff;
+    padding-left: 82px;
+}
+#bootstrap-overrides #title .row:first-of-type p:first-of-type {
+    /*padding-top: 526px;*/
+    padding-top: 180px;
+    font-family: Montserrat-Bold;
+    font-size: 3.429rem;
+    margin-bottom: 0;
+}
+#bootstrap-overrides #title .row:first-of-type p:nth-of-type(2) {
+    font-family: Lato-Regular;
+    font-size: 1.286rem;
+    margin-bottom: 0;
+}
+#bootstrap-overrides #title .row:nth-of-type(2) p {
+    font-family: Montserrat-Bold;
+    font-size: 3.857rem;
+    margin-top: 28px;
+    margin-bottom: 142px;
+    display: inline-block;
+    padding-right: 28px;
+}
+#bootstrap-overrides #title .row:nth-of-type(2) span {
+    color: #f1ad1d;
+    background-color: #fff;
+    display: inline-block;
+    padding: 36px 28px;
+}
+
+
+
