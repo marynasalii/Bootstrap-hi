@@ -17,6 +17,7 @@ GENERAL
 #bootstrap-overrides h1 {
     font-family: Montserrat-Bold; 
     font-size: 1.571rem;
+    color: #fff;
 }
 #bootstrap-overrides h2 {
     font-family: Lato-Regular;
@@ -124,6 +125,18 @@ REVIEWS SECTION
     border-radius: 0;
     position: absolute;
     bottom: 0;
+}
+
+/*
+SECONDARY
+*/
+
+#bootstrap-overrides .secondary {
+    background-color: #000;
+    padding-bottom: 146px;
+}
+#bootstrap-overrides .secondary h1 {
+    padding-top: 146px;
 }
 
 
