@@ -1,3 +1,7 @@
+/*
+GENERAL
+*/
+
 @font-face {
     font-family: Montserrat-Bold;
     src: url(../fonts/Montserrat-Bold.ttf);
@@ -6,6 +10,33 @@
     font-family: Lato-Regular;
     src: url(../fonts/Lato-Regular.ttf);
 }
+@font-face {
+    font-family: Lato-Light;
+    src: url(../fonts/Lato-Light.ttf);
+}
+#bootstrap-overrides h1 {
+    font-family: Montserrat-Bold; 
+    font-size: 1.571rem;
+}
+#bootstrap-overrides h2 {
+    font-family: Lato-Regular;
+    font-size: 1.214rem;
+}
+#bootstrap-overrides hr {
+    width: 60px;
+    background-color: #f1ad1d;
+    height: 3px;
+    border: none;
+    margin-top: 40px;
+}
+#bootstrap-overrides button {
+    cursor: pointer;
+}
+
+/*
+TITLE SECTION
+*/
+
 #bootstrap-overrides #title {
     background-color: #000;
     color: #fff;
@@ -36,6 +67,63 @@
     background-color: #fff;
     display: inline-block;
     padding: 36px 28px;
+}
+
+/*
+REVIEWS SECTION
+*/
+
+#bootstrap-overrides .reviews {
+    background: url("../images/body_bg.png") repeat;
+    padding-bottom: 180px;
+} 
+#bootstrap-overrides .reviews h1 {
+    margin-top: 108px;
+}
+#bootstrap-overrides .reviews h2 {
+    margin-top: 30px;
+}
+#bootstrap-overrides .reviews img {
+    margin: 0 auto;
+}
+#bootstrap-overrides .reviews .black-rectangle {
+    height: 150px;
+    padding: 0;
+    background-color: #111;
+    margin-top: 20px;
+    position: relative;
+}
+#bootstrap-overrides .reviews row:first-of-type .black-rectangle {
+    margin-top: 46px;
+}
+#bootstrap-overrides .reviews .caption {
+    padding: 10px;
+    padding-right: 30px;
+    background-color: #333333;
+    width: 116px;
+    font-size: 1rem;
+    font-family: Lato-Regular;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    margin-left: 15px;
+}
+#bootstrap-overrides .reviews .text-business-title {
+    margin-top: 12px;
+    font-size: 1.286rem;
+    font-family: Montserrat-Bold;
+}
+#bootstrap-overrides .reviews .text-business {
+    margin-top: 20px;
+    font-size: 1rem;
+    font-family: Lato-Light;
+}
+#bootstrap-overrides .reviews button {
+    height: 54px;
+    color: #fff;
+    border-radius: 0;
+    position: absolute;
+    bottom: 0;
 }
 
 
