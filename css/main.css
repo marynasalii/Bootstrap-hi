@@ -144,6 +144,14 @@ SECONDARY
 #bootstrap-overrides .secondary h1 {
     padding-top: 146px;
 }
+#bootstrap-overrides .secondary .featured-logo {
+    margin-right: 54px;
+    margin-top: 54px;
+}
+#bootstrap-overrides .secondary .featured-logo:last-of-type {
+    margin-right: 0;
+}
+
 
 /*
 TEAM SECTION
@@ -155,8 +163,6 @@ TEAM SECTION
     padding-bottom: 194px;
 }
 #bootstrap-overrides .team .team-member {
-    /*margin-right: 1px;*/
-    /*height: 178px;*/
     position: relative;
 }
 #bootstrap-overrides .team .team-member img {
