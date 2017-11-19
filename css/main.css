@@ -152,7 +152,6 @@ SECONDARY
     margin-right: 0;
 }
 
-
 /*
 TEAM SECTION
 */
@@ -219,3 +218,11 @@ TEAM SECTION
     margin-top: 10px;
 }
 
+/*
+PORTFOLIO
+*/
+
+#bootstrap-overrides .portfolio {
+    background: url("../images/body_bg.png") repeat;
+    padding-top: 146px;
+}
