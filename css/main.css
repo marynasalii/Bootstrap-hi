@@ -6,23 +6,28 @@ GENERAL
     font-family: Montserrat-Bold;
     src: url(../fonts/Montserrat-Bold.ttf);
 }
+
 @font-face {
     font-family: Lato-Regular;
     src: url(../fonts/Lato-Regular.ttf);
 }
+
 @font-face {
     font-family: Lato-Light;
     src: url(../fonts/Lato-Light.ttf);
 }
+
 #bootstrap-overrides h1 {
-    font-family: Montserrat-Bold; 
+    font-family: Montserrat-Bold;
     font-size: 1.375rem;
     color: #fff;
 }
+
 #bootstrap-overrides h2 {
     font-family: Lato-Regular;
     font-size: 1.063rem;
 }
+
 #bootstrap-overrides hr {
     width: 60px;
     background-color: #f1ad1d;
@@ -30,11 +35,13 @@ GENERAL
     border: none;
     margin-top: 40px;
 }
+
 #bootstrap-overrides button {
     cursor: pointer;
 }
+
 @media (min-width: 1200px) {
-    .container{
+    .container {
         max-width: 1170px;
     }
 }
@@ -49,6 +56,7 @@ TITLE SECTION
     color: #fff;
     padding-left: 82px;
 }
+
 #bootstrap-overrides #title .row:first-of-type p:first-of-type {
     /*padding-top: 526px;*/
     padding-top: 180px;
@@ -56,11 +64,13 @@ TITLE SECTION
     font-size: 3.429rem;
     margin-bottom: 0;
 }
+
 #bootstrap-overrides #title .row:first-of-type p:nth-of-type(2) {
     font-family: Lato-Regular;
     font-size: 1.286rem;
     margin-bottom: 0;
 }
+
 #bootstrap-overrides #title .row:nth-of-type(2) p {
     font-family: Montserrat-Bold;
     font-size: 3.857rem;
@@ -69,12 +79,14 @@ TITLE SECTION
     display: inline-block;
     padding-right: 28px;
 }
+
 #bootstrap-overrides #title .row:nth-of-type(2) span {
     color: #f1ad1d;
     background-color: #fff;
     display: inline-block;
     padding: 36px 28px;
 }
+
 
 /*
 REVIEWS SECTION
@@ -83,16 +95,20 @@ REVIEWS SECTION
 #bootstrap-overrides .reviews {
     background: url("../images/body_bg.png") repeat;
     padding-bottom: 180px;
-} 
+}
+
 #bootstrap-overrides .reviews h1 {
     margin-top: 108px;
 }
+
 #bootstrap-overrides .reviews h2 {
     margin-top: 30px;
 }
+
 #bootstrap-overrides .reviews img {
     margin: 0 auto;
 }
+
 #bootstrap-overrides .reviews .black-rectangle {
     height: 150px;
     padding: 0;
@@ -100,9 +116,11 @@ REVIEWS SECTION
     margin-top: 20px;
     position: relative;
 }
+
 #bootstrap-overrides .reviews row:first-of-type .black-rectangle {
     margin-top: 46px;
 }
+
 #bootstrap-overrides .reviews .caption {
     padding: 10px;
     padding-right: 30px;
@@ -115,16 +133,19 @@ REVIEWS SECTION
     bottom: 0;
     margin-left: 15px;
 }
+
 #bootstrap-overrides .reviews .text-business-title {
     margin-top: 12px;
     font-size: 1.286rem;
     font-family: Montserrat-Bold;
 }
+
 #bootstrap-overrides .reviews .text-business {
     margin-top: 20px;
     font-size: 1rem;
     font-family: Lato-Light;
 }
+
 #bootstrap-overrides .reviews button {
     height: 54px;
     color: #fff;
@@ -132,6 +153,7 @@ REVIEWS SECTION
     position: absolute;
     bottom: 0;
 }
+
 
 /*
 SECONDARY
@@ -141,37 +163,44 @@ SECONDARY
     background-color: #000;
     padding-bottom: 146px;
 }
+
 #bootstrap-overrides .secondary h1 {
     padding-top: 146px;
 }
+
 #bootstrap-overrides .secondary .featured-logo {
     margin-right: 54px;
     margin-top: 54px;
 }
+
 #bootstrap-overrides .secondary .featured-logo:last-of-type {
     margin-right: 0;
 }
+
 
 /*
 TEAM SECTION
 */
 
-#bootstrap-overrides  .team {
+#bootstrap-overrides .team {
     background: url("../images/body_bg.png") repeat;
     padding-top: 106px;
     padding-bottom: 194px;
 }
+
 #bootstrap-overrides .team .team-member {
     position: relative;
 }
+
 #bootstrap-overrides .team .team-member img {
     margin-right: 1px;
-    
 }
+
 #bootstrap-overrides .team .team-member:last-of-type img {
     margin-right: 0;
     margin-top: 2px;
 }
+
 #bootstrap-overrides .team .team-member .caption {
     position: absolute;
     bottom: 2px;
@@ -180,10 +209,12 @@ TEAM SECTION
     background-color: #333333;
     width: 160px;
 }
+
 #bootstrap-overrides .team .service-block {
     border-bottom: 3px solid #333333;
     margin-top: 30px;
 }
+
 #bootstrap-overrides .team .service-block .service-title {
     font: 1.125rem Montserrat-Bold;
     background-color: #333333;
@@ -191,32 +222,41 @@ TEAM SECTION
     width: 100%;
     color: #fff;
 }
+
 #bootstrap-overrides .team .service-block .service-description {
     font: 0.875rem Lato-Light;
 }
+
 #bootstrap-overrides .team .service-block .service-offers {
     font: 1.125rem Lato-Regular;
 }
+
 #bootstrap-overrides .team .service-block .offer-item {
     font: 0.875rem Lato-Light;
     margin-bottom: 2px;
 }
+
 #bootstrap-overrides .team .service-block .offer-item:last-of-type {
     padding-bottom: 30px;
 }
-#bootstrap-overrides .team .container h1{
+
+#bootstrap-overrides .team .container h1 {
     margin-top: 204px;
 }
+
 #bootstrap-overrides .team .service-block .service-pic {
     margin-top: 30px;
     height: 50px;
 }
+
 #bootstrap-overrides .team .service-block .service-description {
     margin-top: 36px;
 }
+
 #bootstrap-overrides .team .service-block .service-offers {
     margin-top: 10px;
 }
+
 
 /*
 PORTFOLIO
@@ -226,3 +266,50 @@ PORTFOLIO
     background: url("../images/body_bg.png") repeat;
     padding-top: 146px;
 }
+
+#bootstrap-overrides .portfolio hr {
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+
+#bootstrap-overrides .portfolio .portfolio-wrapper {
+    margin-top: 52px !important;
+    margin: 0 auto;
+}
+
+#bootstrap-overrides .portfolio .portfolio-wrapper .portfolio-section {
+    padding: 12px 36px;
+    display: inline-block;
+    border: 1px solid #333333;
+    font: 0.875rem Lato-Light;
+    cursor: pointer;
+}
+
+#bootstrap-overrides .portfolio .portfolio-wrapper .portfolio-section:active {
+    color: #f1ad1d;
+    background-color: #333333;
+}
+
+#bootstrap-overrides .portfolio .portfolio-page {
+    border: 2px solid #333333;
+    margin-top: 15px;
+    height: 270px;
+}
+
+#bootstrap-overrides .portfolio .portfolio-page .portfolio-title {
+    margin-top: 38px;
+    font: 1.125rem Lato-Light;
+}
+
+#bootstrap-overrides .portfolio .portfolio-page hr {
+    margin: 24px auto;
+}
+
+#bootstrap-overrides .portfolio .portfolio-page .portfolio-description {
+    font: 0.875rem Lato-Light;
+}
+
+#bootstrap-overrides .portfolio .portfolio-page button{
+    margin-top: 28px;
+}
+
